@@ -9,8 +9,8 @@ const Footer = () => {
           
           {/* Left Side - Branding */}
           <div className="space-y-4">
-            <div className="text-3xl font-bold text-foreground">
-              Bacck<span className="text-pink-bright">see</span>
+            <div className="text-3xl font-bold brand-name">
+              baccksee
             </div>
             <p className="text-muted-foreground max-w-md">
               Currently in early rollout (Toronto only). Not affiliated with any retailers mentioned. baccksee — early access test in progress

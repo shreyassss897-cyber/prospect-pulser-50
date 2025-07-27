@@ -32,10 +32,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-xl font-bold hover:opacity-80 transition-all underline"
+              className="text-xl font-bold hover:opacity-80 transition-all underline brand-name"
             >
-              <span className="text-black">bacck</span>
-              <span style={{ color: '#009CA6' }}>see</span>
+              baccksee
             </button>
           </div>
 

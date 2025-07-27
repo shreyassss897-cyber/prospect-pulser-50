@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import League Spartan font */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
+
 /* baccksee Design System - Modern service landing page
 All colors MUST be HSL.
 */
@@ -41,6 +44,9 @@ All colors MUST be HSL.
     /* Teal accent colors */
     --pink-bright: 186 97% 33%;
     --pink-light: 186 97% 50%;
+    
+    /* Brand colors */
+    --brand-gray: 0 0% 20%; /* #333333 converted to HSL */
     
     /* Gradients */
     --gradient-pink: linear-gradient(135deg, hsl(186 97% 33%), hsl(186 97% 40%));
@@ -124,6 +130,13 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  /* Brand name styling */
+  .brand-name {
+    font-family: 'League Spartan', sans-serif;
+    color: #333333;
+    font-weight: 700;
   }
 }
 

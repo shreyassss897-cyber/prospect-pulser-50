@@ -56,6 +56,9 @@ export default {
 					bright: 'hsl(var(--pink-bright))',
 					light: 'hsl(var(--pink-light))'
 				},
+				brand: {
+					gray: 'hsl(var(--brand-gray))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
