@@ -64,6 +64,15 @@ const PricingSection = () => {
             </div>
             
           </div>
+          
+          {/* Important Note */}
+          <div className="mt-6 text-center">
+            <div className="bg-muted/50 rounded-xl p-4 border border-border/50">
+              <p className="text-sm text-muted-foreground">
+                <span className="font-medium text-foreground">Note:</span> Baccksee manages the entire process, but customers must cover the return shipping cost.
+              </p>
+            </div>
+          </div>
         </div>
         
       </div>
